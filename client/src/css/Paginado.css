@@ -1,0 +1,30 @@
+.paginado{
+    margin-top: 35px;
+}
+
+.ulPaginado {
+    list-style: none;
+    text-align: center;
+}
+
+.numeroPaginado {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-image: url(https://img.freepik.com/foto-gratis/textura-pared-vieja-cemento-fondo-rojo-negro-diseno-color-oscuro-abstracto-son-claros-fondo-degradado-blanco_1258-103887.jpg?t=st=1663963420~exp=1663964020~hmac=665eb0f3b07e478aaf33790c09202ff5a709e299e21026cba06acfba62b41849);
+    background-size: cover;
+    border: white solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition: all 400ms ease;
+}
+
+.numeroPaginado:hover {
+    color: white;
+    background: url(https://img.freepik.com/foto-gratis/textura-pared-vieja-cemento-fondo-rojo-negro-diseno-color-oscuro-abstracto-son-claros-fondo-degradado-blanco_1258-103895.jpg?w=1380&t=st=1663963640~exp=1663964240~hmac=32039dc58b85bd4dd5e37cd6afed561fe135bc56f8ca82736101d4ba10dc5884);
+    background-size: cover;
+    border-color: white;
+    transform: translateY(-20%);
+}

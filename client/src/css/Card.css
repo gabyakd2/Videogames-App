@@ -1,0 +1,65 @@
+.card {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px black;
+    transition: 0.3s;
+    transition: all 400ms ease;
+    height: 420px;
+    max-width: 400px;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    background-color: rgba(8,30,48,0.8);
+}
+
+.imgbig {
+    border-radius: 8px;
+    border: white solid;
+}
+
+.card:hover {
+    box-shadow: 5px 5px black;
+    transform: translateY(-3%);
+    box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2);
+}
+
+.contenido {
+    font-family: 'Roboto Concensed', sans-serif;
+    font-size: 17px;
+    color: white;
+    text-shadow: white;
+    padding: 20px 0px;
+}
+
+.contenido h3 {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.contenido h4 {
+    display: flex;
+}
+
+.contenido img {
+    width: 30px;
+    height: 30px;
+}
+
+.ratinglog{
+    display: flex;
+    justify-content: end;
+}
+
+.ratinglog p {
+    margin-top: 7px;
+}
+
+.countainerCards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
