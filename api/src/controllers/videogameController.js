@@ -57,7 +57,7 @@ const getGameByQuery = async (req, res) => {
     if (name) {
         let gamesFiltered = []
         getGames.map(e => {
-            let boolean = e.name.toLowerCase().includes(name.toLowerCase())
+            let boolean = e.name.toLowerCase().startsWith(name.toLowerCase())
             if (boolean) {
                 gamesFiltered.push(e)
             }
