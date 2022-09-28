@@ -194,8 +194,8 @@ export default function CreateGame(){
                     </select>
                     <div className='genresSelec'>
                         {
-                            input.genres?.map(ge => (
-                                <div className='genreX'>
+                            input.genres?.map((ge, i) => (
+                                <div key={i} className='genreX'>
                                     <p>{ge}</p>
                                     <br />
                                     <button className='butonX' value={ge} onClick={(e) => handleDelete(e)}>X</button>
